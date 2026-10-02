@@ -1,0 +1,66 @@
+{
+    "packages": [
+        {
+            "name": "adeptix/adeptix-php",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Adeptix-app/adeptix-php.git",
+                "reference": "325bbc4356d30d65927c719c395351b430f7e17c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adeptix-app/adeptix-php/zipball/325bbc4356d30d65927c719c395351b430f7e17c",
+                "reference": "325bbc4356d30d65927c719c395351b430f7e17c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.5"
+            },
+            "time": "2026-10-02T05:41:14+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Adeptix\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Adeptix\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Official PHP SDK for the Adeptix API - crypto payments and merchant payments.",
+            "homepage": "https://docs.adeptix.app",
+            "keywords": [
+                "adeptix",
+                "api-client",
+                "crypto",
+                "payment-gateway",
+                "payments"
+            ],
+            "support": {
+                "source": "https://github.com/Adeptix-app/adeptix-php/tree/main",
+                "issues": "https://github.com/Adeptix-app/adeptix-php/issues"
+            },
+            "install-path": "../adeptix/adeptix-php"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

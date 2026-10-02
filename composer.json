@@ -1,0 +1,20 @@
+{
+    "name": "adeptix/adeptix-prestashop",
+    "description": "Adeptix payment module for PrestaShop.",
+    "type": "prestashop-module",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "adeptix/adeptix-php": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Adeptix-app/adeptix-php"
+        }
+    ],
+    "config": {
+        "platform-check": false
+    },
+    "minimum-stability": "stable"
+}
