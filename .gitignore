@@ -1,0 +1,11 @@
+# NOTE: vendor/ is committed on purpose - it bundles the Adeptix PHP SDK so this
+# plugin installs without running Composer. Regenerate it with:
+#   composer update --no-dev
+composer.lock
+*.zip
+*.log
+.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
